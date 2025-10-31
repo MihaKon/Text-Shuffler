@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+django = "*"
+
+[requires]
+python_version = "3.12"
+
+[dev-packages]
+ruff = "*"
+djlint = "*"
+isort = "*"
+pytest = "*"
+playwright = "*"
+pytest-playwright = "*"
+pytest-django = "*"
+pytest-env = "*"
